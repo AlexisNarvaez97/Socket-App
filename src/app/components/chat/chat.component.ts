@@ -12,8 +12,10 @@ export class ChatComponent implements OnInit, OnDestroy {
 
   mensajes: any[] = [];
 
+  // Referencia al elemento de HTML para hacer el scroll.
   elemento: HTMLElement;
 
+  // Referencia para hacer la des del metodo del observable.
   messagesSuscription: Subscription;
 
   constructor(private chatService: ChatServiceService) {}

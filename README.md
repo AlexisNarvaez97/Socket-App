@@ -1,4 +1,6 @@
-# Basico
+# SOCKET - APP
+
+Run `npm install` to generate a full project.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
 
